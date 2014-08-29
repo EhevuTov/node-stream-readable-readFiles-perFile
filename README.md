@@ -1,7 +1,7 @@
 stream-readable-read_files-per_file
 ===============================
 
-[![Build Status](https://travis-ci.org/EhevuTov/node-stream-readable-read_files-per_file.svg)](https://travis-ci.org/EhevuTov/node-stream-readable-read_files-per_file)
+[![Build Status](https://travis-ci.org/EhevuTov/node-stream-readable-readFiles-perFile.svg)](https://travis-ci.org/EhevuTov/node-stream-readable-readFiles-perFile)
 # Description
 a readable stream that emits a buffer per respective file for each file in a given directory
 Usage
