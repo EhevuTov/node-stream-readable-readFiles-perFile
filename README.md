@@ -1,22 +1,21 @@
-stream-readable-buffer-read_files-per_file
+stream-readable-read_files-per_file
 ===============================
 
-[![Build Status](https://travis-ci.org/EhevuTov/node-stream-readable-buffer-read_files-per_file.svg)](https://travis-ci.org/EhevuTov/node-stream-readable-buffer-read_files-per_file)
+[![Build Status](https://travis-ci.org/EhevuTov/node-stream-readable-read_files-per_file.svg)](https://travis-ci.org/EhevuTov/node-stream-readable-read_files-per_file)
 # Description
-A node transform stream in object mode that consumes a JSON object and produces a CSV record with optional header until null is consumed
-
+a readable stream that emits a buffer per respective file for each file in a given directory
 Usage
 -----
 
 in your project root dir:
 ```
-npm i stream-readable-buffer-read_files-per_file --save
+npm i stream-readable-read_files-per_file --save
 ```
 
 in your program:
 ```
 // require this module
-var ReadFiles = require('stream-readable-buffer-read_files-per_file');
+var ReadFiles = require('stream-readable-read_files-per_file');
 
 // instantiate a new object from the module
 var readFiles = new ReadFiles();

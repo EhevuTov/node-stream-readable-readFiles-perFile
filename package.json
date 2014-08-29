@@ -1,14 +1,14 @@
 {
-  "name": "stream-readable-buffer-read_files-per_file",
+  "name": "stream-readable-read_files-per_file",
   "version": "0.0.0",
-  "description": "A node transform stream in object mode that consumes a JSON object and produces a CSV record with optional header until null is consumed",
+  "description": "a readable stream that emits a buffer per respective file for each file in a given directory",
   "main": "index.js",
   "scripts": {
     "test": "tap test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EhevuTov/node-stream-readable-buffer-readFiles-perFile"
+    "url": "https://github.com/EhevuTov/node-stream-readable-readFiles-perFile"
   },
   "keywords": [
     "node",
@@ -23,9 +23,9 @@
   "author": "James Gosnell <jamesgosnell@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EhevuTov/node-stream-readable-buffer-readFiles-perFile/issues"
+    "url": "https://github.com/EhevuTov/node-stream-readable-readFiles-perFile/issues"
   },
-  "homepage": "https://github.com/EhevuTov/node-stream-readable-readFiles-buffer-perFile",
+  "homepage": "https://github.com/EhevuTov/node-stream-readable-readFiles-perFile",
   "devDependencies": {
     "tap": "^0.4.12"
   }
