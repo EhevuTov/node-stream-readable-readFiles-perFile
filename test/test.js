@@ -11,13 +11,13 @@ var fs = require('fs');
 // load a random buff
 var buf_1;
 buf_1 = crypto.randomBytes(256);
-fs.writeFileSync('test/data/1.dat', buf_1);
+fs.writeFileSync('1.dat', buf_1);
 var buf_2;
 buf_2 = crypto.randomBytes(256);
-fs.writeFileSync('test/data/2.dat', buf_2);
+fs.writeFileSync('2.dat', buf_2);
 
 var conf = {
-	inputDir: './test/data/'
+	inputDir: './'
 };
 
 console.dir(conf);
@@ -31,5 +31,5 @@ test("Buffer Equality Test", function(t){
 
 //readFile.pipe(process.stdout);
 
-fs.unlinkSync('test/data/1.dat');
-fs.unlinkSync('test/data/2.dat');
+fs.unlinkSync('1.dat');
+fs.unlinkSync('2.dat');
