@@ -1,6 +1,6 @@
 {
   "name": "stream-readable-read_files-per_file",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a readable stream that emits a buffer per respective file for each file in a given directory",
   "main": "index.js",
   "scripts": {
